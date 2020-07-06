@@ -2,6 +2,7 @@
 # Evil turtle yeet monster stuff
 effect give @a[team=michaelreeves] minecraft:invisibility 100000 1
 effect give @a[team=michaelreeves] minecraft:strength 100000 10
+effect give @a[team=michaelreeves] minecraft:regeneration 100000 255
 effect clear @a[team=michaelreeves] minecraft:glowing
 execute at @a[team=michaelreeves] run particle minecraft:flame ~ ~1 ~ 0.05 0.05 0.05 0.01 5
 execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1 ~ 0.1 0.1 0.1 0.1 10
