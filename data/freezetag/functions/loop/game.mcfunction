@@ -38,4 +38,4 @@ effect give @a[scores={freeze=1}] minecraft:health_boost 1000000 10 true
 team join michaelreeves @a[scores={freeze=1}] 
 scoreboard players set @a freeze 0
 
-say "Test"
+effect give @a minecraft:speed 1000000 2
