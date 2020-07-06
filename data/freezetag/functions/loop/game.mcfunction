@@ -29,7 +29,7 @@ execute if entity @a[scores={freeze=1}] run replaceitem entity @a[team=michaelre
 execute if entity @a[scores={freeze=1}] run replaceitem entity @a[team=michaelreeves] armor.chest minecraft:leather_chestplate{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:4635721}}
 execute if entity @a[scores={freeze=1}] run replaceitem entity @a[team=michaelreeves] armor.legs minecraft:leather_leggings{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:4635721}}
 execute if entity @a[scores={freeze=1}] run team join evilturtles @a[team=michaelreeves]
-
+execute if entity @a[scores={freeze=1}] at @a run execute at @a run playsound minecraft:entity.lightning_bolt.thunder hostile @a ~ ~ ~ 1000
 # Apply super michael effects
 effect give @a[scores={freeze=1}] minecraft:invisibility 1000000 1 true
 effect give @a[scores={freeze=1}] minecraft:strength 1000000 1 true
