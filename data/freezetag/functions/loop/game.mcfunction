@@ -1,9 +1,9 @@
 
 # Evil turtle yeet monster stuff
 execute at @a[team=michaelreeves] run particle minecraft:flame ~ ~2 ~ 0.05 0.05 0.05 0.01 5
-execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1.2 ~ 0.4 0.2 0.4 0.1 10
-execute at @a[team=michaelreeves] run particle minecraft:damage_indicator ~ ~2.3 ~ 0.4 0.4 0.4 1 1
-execute at @a[team=michaelreeves] run particle minecraft:campfire_cosy_smoke ~ ~2.3 ~ 0.0 0.0 0.0 0.01 1
+execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1.4 ~ 0.1 0.1 0.1 0.1 10
+execute at @a[team=michaelreeves] run particle minecraft:lava ~ ~1 ~ 0 0 0 0 1
+# execute at @a[team=michaelreeves] run particle minecraft:campfire_cosy_smoke ~ ~2.3 ~ 0.0 0.0 0.0 0.01 1
 
 # Other player stuff
 replaceitem entity @a[team=evilturtles] armor.head minecraft:turtle_helmet{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}]}
@@ -21,8 +21,7 @@ effect give @a[scores={freeze=1}] minecraft:instant_health 1 10 true
 clear @a[scores={freeze=1}]
 
 # Give the new "it" a black helmet
-replaceitem entity @a[scores={freeze=1}] armor.head minecraft:leather_helmet{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:0}}
-replaceitem entity @a[scores={freeze=1}] armor.chest minecraft:leather_chestplate{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:0}}
+replaceitem entity @a[scores={freeze=1}] armor.head minecraft:skeleton_skull{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:0}}
 
 # Give the old it turtle stuff
 execute if entity @a[scores={freeze=1}] run effect clear @a[team=michaelreeves]
