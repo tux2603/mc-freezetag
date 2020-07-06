@@ -41,3 +41,4 @@ team join michaelreeves @a[scores={freeze=1}]
 scoreboard players set @a freeze 0
 
 effect give @a minecraft:speed 1000000 2
+scoreboard players add @a[team=michaelreeves] timeit 1
