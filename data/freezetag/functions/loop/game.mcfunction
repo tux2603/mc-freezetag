@@ -2,7 +2,6 @@
 # Evil turtle yeet monster stuff
 effect give @a[team=michaelreeves] minecraft:invisibility 100000 1
 effect clear @a[team=michaelreeves] minecraft:glowing
-clear @a[team=michaelreeves]
 execute at @a[team=michaelreeves] run particle minecraft:flame ~ ~1 ~ 0.05 0.05 0.05 0.01 5
 execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1 ~ 0.1 0.1 0.1 0.1 10
 execute at @a[team=michaelreeves] run particle minecraft:campfire_cosy_smoke ~ ~2.3 ~ 0.0 0.0 0.0 0.01 1
