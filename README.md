@@ -1,2 +1,2 @@
-# mc-freezetag
-Minecraft freezetag datapack
+# mc-ctf
+Minecraft capture the flag
