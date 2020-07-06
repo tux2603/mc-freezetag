@@ -14,7 +14,7 @@ replaceitem entity @a[team=evilturtles] armor.head minecraft:turtle_helmet{Encha
 replaceitem entity @a[team=evilturtles] armor.chest minecraft:leather_chestplate{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:4635721}}
 replaceitem entity @a[team=evilturtles] armor.legs minecraft:leather_leggings{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:4635721}}
 
-scoreboard players set @a[team=evilturtles,scores={health=0..19,frozen=0}] freeze 1
+scoreboard players set @a[team=evilturtles,scores={health=0..10,frozen=0}] freeze 1
 
 effect give @a[scores={freeze=1}] minecraft:slowness 1000000 130
 effect give @a[scores={freeze=1}] minecraft:jump_boost 1000000 130
