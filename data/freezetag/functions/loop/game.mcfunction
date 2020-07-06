@@ -24,6 +24,7 @@ replaceitem entity @a[scores={freeze=1}] armor.head minecraft:skeleton_skull{Enc
 
 # Give the old it turtle stuff
 execute if entity @a[scores={freeze=1}] run effect clear @a[team=michaelreeves]
+execute if entity @a[scores={freeze=1}] run clear @a[team=michaelreeves]
 execute if entity @a[scores={freeze=1}] run effect give @a[team=michaelreeves] minecraft:glowing 1000000 1 true
 execute if entity @a[scores={freeze=1}] run replaceitem entity @a[team=michaelreeves] armor.head minecraft:turtle_helmet{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}]}
 execute if entity @a[scores={freeze=1}] run replaceitem entity @a[team=michaelreeves] armor.chest minecraft:leather_chestplate{Enchantments:[{id:unbreaking,lvl:1000},{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],display:{color:4635721}}
@@ -35,7 +36,7 @@ effect give @a[scores={freeze=1}] minecraft:invisibility 1000000 1 true
 effect give @a[scores={freeze=1}] minecraft:strength 1000000 1 true
 effect give @a[scores={freeze=1}] minecraft:regeneration 1000000 255 true
 effect give @a[scores={freeze=1}] minecraft:health_boost 1000000 10 true
-give @a[scores={freeze=1}] minecraft:splash_potion{CustomPotionEffects:[{Id:1,Amplifier:4,Duration:300}],CustomPotionColor:16147968,display:{Name:"\"Go ZOOOOM\""}} 4
+give @a[scores={freeze=1}] minecraft:splash_potion{CustomPotionEffects:[{Id:1,Amplifier:4,Duration:100}],CustomPotionColor:16147968,display:{Name:"\"Go ZOOOOM\""}} 4
 team join michaelreeves @a[scores={freeze=1}] 
 scoreboard players set @a freeze 0
 
