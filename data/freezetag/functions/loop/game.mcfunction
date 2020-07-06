@@ -35,6 +35,7 @@ effect give @a[scores={freeze=1}] minecraft:invisibility 1000000 1 true
 effect give @a[scores={freeze=1}] minecraft:strength 1000000 1 true
 effect give @a[scores={freeze=1}] minecraft:regeneration 1000000 255 true
 effect give @a[scores={freeze=1}] minecraft:health_boost 1000000 10 true
+give @p minecraft:splash_potion{CustomPotionEffects:[{Id:1,Amplifier:3,Duration:100}],CustomPotionColor:16147968,display:{Name:"\"Go ZOOOOM\""}} 4
 team join michaelreeves @a[scores={freeze=1}] 
 scoreboard players set @a freeze 0
 
