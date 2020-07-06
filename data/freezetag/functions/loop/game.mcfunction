@@ -16,6 +16,8 @@ replaceitem entity @a[team=evilturtles] armor.legs minecraft:leather_leggings{En
 
 scoreboard players set @a[team=evilturtles,scores={health=0..19,frozen=0}] freeze 1
 
-tp @a[scores={freeze=1}] ~ ~100 ~
+effect give @a[scores={freeze=1}] minecraft:slowness 1000000 130
+effect give @a[scores={freeze=1}] minecraft:jump_boost 1000000 130
+
 
 scoreboard players set @a[scores={freeze=1}] freeze 0
