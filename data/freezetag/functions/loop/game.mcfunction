@@ -1,7 +1,7 @@
 
 # Evil turtle yeet monster stuff
-execute at @a[team=michaelreeves] run particle minecraft:flame ~ ~2 ~ 0.05 0.05 0.05 0.01 5
-execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1.4 ~ 0.1 0.1 0.1 0.2 10
+execute at @a[team=michaelreeves] run particle minecraft:flame ~ ~2 ~ 0.05 0.00 0.05 0.01 5
+execute at @a[team=michaelreeves] run particle minecraft:dripping_lava ~ ~1.3 ~ 0.1 0.0 0.1 0.2 10
 # execute at @a[team=michaelreeves] run particle minecraft:campfire_cosy_smoke ~ ~2.3 ~ 0.0 0.0 0.0 0.01 1
 
 # Other player stuff
