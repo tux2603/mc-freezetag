@@ -40,5 +40,5 @@ give @a[scores={callstack00=1}] minecraft:splash_potion{CustomPotionEffects:[{Id
 team join michaelreeves @a[scores={callstack00=1}] 
 scoreboard players set @a callstack00 0
 
-effect give @a minecraft:speed 1000000 2
+effect give @a minecraft:speed 1000000 2 true
 scoreboard players add @a[team=michaelreeves] timeit 1
